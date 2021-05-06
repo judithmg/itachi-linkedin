@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Connection = ({ name, position, place }) => (
+const Connection = ({ connection }) => (
   <div className="connection__container">
-    <img src={`${name}.png`} alt="connection" />
+    <img src={`${connection.name}.png`} alt="connection" />
     <div>
-      <p className="connection__name">{name}</p>
+      <p className="connection__name">{connection.name}</p>
       <p className="connection__position">
-        {`${position} at ${place}`}
+        {`${connection.position} at ${connection.place}`}
       </p>
     </div>
   </div>
