@@ -1,0 +1,52 @@
+@import "./mixins";
+@import "./fonts";
+@import "./colors";
+
+body {
+  font-family: $Montserrat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+}
+
+button {
+  font-family: $Montserrat;
+}
+
+h2 {
+  color: #fff;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.App {
+  @include flex(row, flex-start, flex-start);
+}
+
+.left-column {
+}
+.middle-column {
+}
+.middle-left {
+}
+.middle-middle {
+}
+.middle-right {
+}
+.right-column {
+}
+
+.btn__view-all {
+  background-color: transparent;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
