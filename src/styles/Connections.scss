@@ -1,0 +1,23 @@
+@import "./colors";
+@import "./mixins";
+.connection__img {
+  width: 60px;
+}
+
+.connections__container {
+  @include flex(row, center, center);
+}
+.connection__container {
+  color: #fff;
+  padding: 1rem;
+  width: fit-content;
+  background-color: $gray;
+  border: 1px solid red;
+  div {
+    p {
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
