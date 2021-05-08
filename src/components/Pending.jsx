@@ -1,6 +1,7 @@
 import React from 'react';
 import invitations from '../data/invitations';
 import Invitation from './Invitation';
+import '../styles/Pending.scss';
 
 const Pending = () => (
   <section className="pending__container">
@@ -9,6 +10,8 @@ const Pending = () => (
     </h2>
     {invitations.map((invitation) => <Invitation invitation={invitation} />)}
 
-    <button type="button">View All</button>
+    <button className="btn__view-all" type="button">View All</button>
   </section>
 );
+
+export default Pending;
