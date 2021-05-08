@@ -9,7 +9,7 @@ export default [{
   where: 'Konoha',
 },
 {
-  name: 'Ororchimaru',
+  name: 'Orochimaru',
   position: 'Nukenin',
   where: 'Akatsuki',
 }];
