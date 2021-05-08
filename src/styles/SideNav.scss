@@ -1,0 +1,67 @@
+@import "./colors";
+
+.sidenav__container {
+  width: 350px;
+  background-color: gray;
+  border-radius: 20px;
+
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  &:after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 0 40px 0 0;
+    border-right: 8px solid crimson;
+    border-top: 8px solid crimson;
+    position: absolute;
+    left: 289px;
+    top: -8px;
+  }
+  &:before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 0 40px;
+    border-left: 8px solid crimson;
+    border-bottom: 8px solid crimson;
+    position: absolute;
+    right: 289px;
+    bottom: -7px;
+  }
+  ul {
+    li {
+      line-height: 5rem;
+      border-bottom: 1px solid $lightgray;
+      color: $lightgray;
+      font-weight: bold;
+      &:hover {
+        color: white;
+      }
+      &:before {
+        font-family: "Font Awesome 5 Free";
+        margin-right: 1rem;
+        color: $crimsonred;
+      }
+
+      &:nth-child(1):before {
+        content: "\f015";
+        font-weight: 700;
+      }
+      &:nth-child(2):before {
+        content: "\f007";
+      }
+      &:nth-child(3):before {
+        content: "\f0b1";
+        font-weight: 700;
+      }
+      &:nth-child(4):before {
+        content: "\f27a";
+      }
+      &:nth-child(5):before {
+        content: "\f0f3";
+      }
+    }
+  }
+}

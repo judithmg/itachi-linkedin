@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styles/SideNav.scss';
 
-const SideBar = () => (
-  <section className="sidebar__container">
+const SideNav = () => (
+  <section className="sidenav__container">
     <h2>Itachi Uchiha</h2>
     <h3>Nukenin at Akatsuki</h3>
     <ul>
@@ -14,4 +15,4 @@ const SideBar = () => (
   </section>
 );
 
-export default SideBar;
+export default SideNav;
