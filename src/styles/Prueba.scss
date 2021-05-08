@@ -1,0 +1,20 @@
+.connections__container {
+  width: 350px;
+  background-color: gray;
+  border-radius: 20px;
+
+  position: relative;
+  margin: 20px;
+}
+
+.connections__container:after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 0 40px 0 0px;
+  border-right: 8px solid crimson;
+  border-top: 8px solid crimson;
+  position: absolute;
+  left: 249px;
+  top: -8px;
+}
