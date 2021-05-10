@@ -4,13 +4,11 @@ import Job from './Job';
 import '../styles/Jobs.scss';
 
 const Jobs = () => (
-  <section className="pending__container">
+  <section className="jobsforyou__container">
     <h2>
       Jobs for You
     </h2>
-    {jobs.map((job) => <Job job={job} />)}
-
-    <button className="btn__view-all" type="button">View All</button>
+    {jobs.map((job, index) => <Job job={job} index={index} />)}
   </section>
 );
 
