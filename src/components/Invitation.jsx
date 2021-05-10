@@ -6,7 +6,14 @@ const Invitation = ({ invitation }) => (
     <div>
       <p className="invitation__name">{invitation.name}</p>
       <p className="invitation__position">
-        {`${invitation.position} at ${invitation.where}`}
+        <span>
+          {invitation.position}
+          {' '}
+          at
+          {' '}
+        </span>
+        {invitation.where}
+
       </p>
     </div>
   </div>

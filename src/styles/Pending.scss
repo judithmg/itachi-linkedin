@@ -1,3 +1,32 @@
-.invitation__img {
-  width: 60px;
+@import "./index";
+
+.pending__container {
+  border: 2px solid green;
+  border-radius: 20px;
+  background-color: $sectionbg;
+}
+
+.invitation__container {
+  @include flex(row, flex-start, center);
+  height: 5rem;
+  margin: 1rem;
+
+  font-size: 0.7rem;
+  color: #fff;
+  width: 40%;
+  background-color: $charbg;
+  border-radius: 10px;
+  p {
+    color: #fff;
+    font-weight: 700;
+    span {
+      color: $gray;
+    }
+  }
+  img {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
 }
