@@ -1,9 +1,8 @@
-@import "./mixins";
-@import "./fonts";
-@import "./colors";
+@import "./index";
 
 body {
   font-family: $Montserrat;
+  background-color: $darkblue;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,7 +22,13 @@ li {
   list-style: none;
 }
 
+section {
+}
+
 .App {
+  background-image: url(./itachi-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   @include flex(row, flex-start, flex-start);
 }
 
