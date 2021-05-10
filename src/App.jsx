@@ -1,9 +1,11 @@
 import React from 'react';
+import Inbox from './components/Inbox';
 // import Pending from './components/Pending';
 // import SideNav from './components/SideNav';
 // import Connections from './components/Connections';
-import About from './components/About';
-import RecentSearch from './components/RecentSearch';
+// import About from './components/About';
+// import Jobs from './components/JobsForYou';
+// import RecentSearch from './components/RecentSearch';
 
 import './styles/App.scss';
 
@@ -20,12 +22,13 @@ function App() {
         </div>
         <div className="middle-right">
           {/* <Pending /> */}
-          <RecentSearch />
+          {/* <RecentSearch /> */}
         </div>
-        <About />
+        {/* <About /> */}
       </div>
       <div className="right-column">
-        <div><h2>Jobs for you</h2></div>
+        {/* <Jobs /> */}
+        <Inbox />
       </div>
 
     </div>

@@ -19,8 +19,9 @@ li {
 }
 
 .App {
+  min-width: 100vw;
   background-image: url(./itachi-bg.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   @include flex(row, flex-start, flex-start);
 }
