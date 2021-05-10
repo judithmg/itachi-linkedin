@@ -4,5 +4,6 @@ export default {
   user: '&#xf007;',
   briefcase: '&#xf0b1;',
   notification: '&#xf0f3;',
-
+  check: '&#xf00c;',
+  deny: '&#xf00d;',
 };
