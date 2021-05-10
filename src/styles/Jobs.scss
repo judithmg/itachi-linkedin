@@ -1,3 +1,29 @@
+@import "./index";
 .jobsforyou__container {
-  background-color: green;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: $sectionbg;
+}
+.job__container {
+  background-color: $charbg;
+  @include flex(row, flex-start, flex-start);
+  line-height: 0.2rem;
+  margin: 0.8rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  .job__title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  .job__readers {
+    color: $gray;
+  }
+  img {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 1rem;
+  }
 }
