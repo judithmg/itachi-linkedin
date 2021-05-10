@@ -1,21 +1,43 @@
-@import "./colors";
-@import "./mixins";
-.connection__img {
-  width: 60px;
-}
+@import "./index";
 
 .connections__container {
-  @include flex(row, center, center);
+  border-radius: 20px;
+  background-color: $sectionbg;
 }
+
+.connections__header {
+  @include flex(row, space-between, center);
+  padding: 2rem;
+}
+
 .connection__container {
+  position: relative;
+  @include flex(column, flex-end, center);
+  height: 5rem;
+  margin: 1rem;
+
+  font-size: 0.7rem;
   color: #fff;
-  padding: 1rem;
-  width: fit-content;
-  background-color: $gray;
-  border: 1px solid red;
+  width: 40%;
+  background-color: $charbg;
+  border-radius: 10px;
+  img {
+    position: absolute;
+    top: -30%;
+    left: 40%;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+  }
   div {
+    line-height: 0;
+    text-align: center;
+    margin-bottom: 0.7rem;
     p {
+      color: $gray;
       span {
+        color: #fff;
         font-weight: 700;
       }
     }
