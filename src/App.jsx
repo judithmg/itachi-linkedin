@@ -1,8 +1,9 @@
 import React from 'react';
-import Pending from './components/Pending';
+// import Pending from './components/Pending';
 // import SideNav from './components/SideNav';
 // import Connections from './components/Connections';
 import About from './components/About';
+import RecentSearch from './components/RecentSearch';
 
 import './styles/App.scss';
 
@@ -18,7 +19,8 @@ function App() {
           {/* <Connections /> */}
         </div>
         <div className="middle-right">
-          <Pending />
+          {/* <Pending /> */}
+          <RecentSearch />
         </div>
         <About />
       </div>
