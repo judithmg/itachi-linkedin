@@ -1,8 +1,37 @@
-@import "./colors";
+@import "./index";
 
 .sidenav__container {
+  position: relative;
+  img {
+    position: absolute;
+    top: -25%;
+    left: 22%;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  h3,
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    color: #fff;
+    span {
+      color: $gray;
+    }
+  }
   width: 350px;
-  background-color: gray;
+  background-image: linear-gradient(
+    to right top,
+    #e9305eb4,
+    #1e1b2cf8,
+    #1e1b2cf8,
+    #1e1b2cf8,
+    #1e1b2cf8,
+    #1e1b2cf8,
+    #a52b49ee
+  );
   border-radius: 20px;
 
   position: relative;
@@ -33,8 +62,8 @@
   ul {
     li {
       line-height: 5rem;
-      border-bottom: 1px solid $lightgray;
-      color: $lightgray;
+      border-bottom: 1px solid $gray;
+      color: $gray;
       font-weight: bold;
       &:hover {
         color: white;
@@ -42,7 +71,10 @@
       &:before {
         font-family: "Font Awesome 5 Free";
         margin-right: 1rem;
+        font-size: 1rem;
         color: $crimsonred;
+        &:hover {
+        }
       }
 
       &:nth-child(1):before {
