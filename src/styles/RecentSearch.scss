@@ -1,0 +1,28 @@
+@import "./index";
+
+.recent__container {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: $sectionbg;
+
+  h2 {
+    span {
+      color: $crimsonred;
+    }
+  }
+  button {
+    font-family: $Montserrat;
+    color: $gray;
+    background-color: $charbg;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin: 0.3rem;
+    font-weight: 700;
+    span {
+      color: $crimsonred;
+      font-weight: 700;
+    }
+  }
+}
