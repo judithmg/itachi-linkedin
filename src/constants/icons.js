@@ -6,4 +6,5 @@ export default {
   notification: '&#xf0f3;',
   check: '&#xf00c;',
   deny: '&#xf00d;',
+  star: '&#xf005;',
 };
