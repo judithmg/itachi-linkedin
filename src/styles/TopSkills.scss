@@ -1,0 +1,71 @@
+@import "./index";
+
+.topskills__container {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: $sectionbg;
+}
+
+.topskills__skill {
+  background-color: $crimsonred;
+  border-radius: 10px;
+  color: #fff;
+  position: relative;
+  z-index: 0;
+  button {
+    @include flex(row, center, center);
+    background-color: #fff;
+    border-radius: 7px;
+    color: $sectionbg;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 0.3rem 0.7rem;
+    font-family: $Montserrat;
+    font-size: 0.55rem;
+    font-weight: 900;
+    &:hover {
+      border: 1px solid $crimsonred;
+      color: $crimsonred;
+    }
+    span {
+      font-size: 0.7rem;
+      margin-right: 0.3rem;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      color: $crimsonred;
+    }
+  }
+  .topskills__star {
+    font-size: 0.5rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+  }
+  .topskills__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
+
+  &:nth-child(1) {
+    background-image: url(./top-susanoo.png);
+    background-size: cover;
+  }
+  &:nth-child(2) {
+    background-image: url(./top-amaterasu.jpg);
+    background-size: cover;
+  }
+  &:nth-child(3) {
+    background-image: url(./top-tsukuyomi.jpg);
+    background-size: cover;
+  }
+}
+.topskills__overlay {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $semicrimsonred;
+  z-index: -1;
+}
