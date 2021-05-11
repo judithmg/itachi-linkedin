@@ -13,19 +13,31 @@ const TopSkills = () => (
     </div>
     <div className="topskills__skills">
       <div className="topskills__skill">
-        <p className="topskills__star">&#xf002;&#xf002;&#xf002;&#xf002;&#xf002;</p>
+        <p className="topskills__star">&#xf005; &#xf005; &#xf005; &#xf005; &#xf005; </p>
         <p className="topskills__title">Perfect Susanoo</p>
-        <button className="topskills__play" type="button">Play</button>
+        <button type="button">
+          <span>&#xf04b;</span>
+          Play
+        </button>
+        <div className="topskills__overlay" />
       </div>
       <div className="topskills__skill">
-        <p className="topskills__star">&#xf002;&#xf002;&#xf002;&#xf002;&#xf002;</p>
+        <p className="topskills__star">&#xf005; &#xf005; &#xf005; &#xf005; &#xf005; </p>
         <p className="topskills__title">Amaterasu</p>
-        <button className="topskills__play" type="button">Play</button>
+        <button type="button">
+          <span>&#xf04b;</span>
+          Play
+        </button>
+        <div className="topskills__overlay" />
       </div>
       <div className="topskills__skill">
-        <p className="topskills__star">&#xf002;&#xf002;&#xf002;&#xf002;&#xf002;</p>
-        <p className="topskills__title">Tsukiyomi</p>
-        <button className="topskills__play" type="button">Play</button>
+        <p className="topskills__star">&#xf005; &#xf005; &#xf005; &#xf005; &#xf005; </p>
+        <p className="topskills__title">tsukuyomi</p>
+        <button type="button">
+          <span>&#xf04b;</span>
+          Play
+        </button>
+        <div className="topskills__overlay" />
       </div>
     </div>
   </section>
