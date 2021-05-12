@@ -13,6 +13,9 @@
 }
 
 .invitation__container {
+  &:hover .invitation__name {
+    color: $crimsonred;
+  }
   .invitation__left {
     @include flex(row, center, center);
   }

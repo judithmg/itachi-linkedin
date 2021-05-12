@@ -10,6 +10,9 @@
   margin: 0.8rem 0;
   border-radius: 10px;
   padding: 0.5rem;
+  &:hover .job__title {
+    color: $crimsonred;
+  }
   .job__title {
     color: #fff;
     font-weight: 700;
