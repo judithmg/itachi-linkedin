@@ -6,10 +6,10 @@ const Connection = ({ connection }) => (
     <div>
       <h3 className="connection__name">{connection.name}</h3>
       <p className="connection__position">
-        {`${connection.position}
-         at
-         `}
-        <span>{connection.where}</span>
+        {`${connection.position} at `}
+        <span>
+          {connection.where}
+        </span>
       </p>
     </div>
   </div>

@@ -4,12 +4,14 @@ import connections from '../data/connections';
 import '../styles/Connections.scss';
 
 const Connections = () => (
-  <section className="connections__container">
+  <section className="connections__container middle-center">
     <div className="connections__header">
       <h2>Connections</h2>
       <button className="btn__view-all" type="button">View All</button>
     </div>
-    {connections.map((connection) => <Connection connection={connection} />)}
+    <div className="connections__connection">
+      {connections.map((connection) => <Connection connection={connection} />)}
+    </div>
   </section>
 );
 
