@@ -12,6 +12,8 @@
   }
   button {
     font-family: $Montserrat;
+    font-weight: 700;
+    font-size: 0.5rem;
     color: $gray;
     background-color: $charbg;
     outline: none;
@@ -19,7 +21,6 @@
     border-radius: 5px;
     padding: 0.4rem;
     margin: 0.3rem;
-    font-weight: 700;
     span {
       color: $crimsonred;
       font-weight: 700;

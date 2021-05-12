@@ -7,23 +7,24 @@
 .job__container {
   background-color: $charbg;
   @include flex(row, flex-start, flex-start);
-  line-height: 0.2rem;
-  margin: 0.8rem;
+  margin: 0.8rem 0;
   border-radius: 10px;
   padding: 0.5rem;
   .job__title {
     color: #fff;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    margin: 0;
   }
   .job__readers {
     color: $gray;
+    font-size: 0.7rem;
   }
   img {
     border-radius: 10px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
-    margin: 0 1rem;
+    margin-right: 0.5rem;
   }
 }

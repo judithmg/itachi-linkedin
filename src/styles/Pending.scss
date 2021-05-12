@@ -7,13 +7,15 @@
   h2 {
     margin: 1rem;
   }
+  .btn__view-all {
+    margin: 0 0 1rem 1rem;
+  }
 }
 
 .invitation__container {
   .invitation__left {
     @include flex(row, center, center);
   }
-  padding: 0rem;
   @include flex(row, space-between, center);
   height: 5rem;
   margin: 1rem;
