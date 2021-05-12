@@ -7,4 +7,6 @@ export default {
   check: '&#xf00c;',
   deny: '&#xf00d;',
   star: '&#xf005;',
+  play: '&#xf04b;',
+  quote: '&#xf10d;',
 };
