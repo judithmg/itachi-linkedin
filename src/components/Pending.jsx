@@ -9,7 +9,6 @@ const Pending = () => (
       Pending Invitation
     </h2>
     {invitations.map((invitation) => <Invitation invitation={invitation} />)}
-
     <button className="btn__view-all" type="button">View All</button>
   </section>
 );
