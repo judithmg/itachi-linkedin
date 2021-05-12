@@ -1,9 +1,15 @@
 /* eslint-disable max-len */
 import React from 'react';
+import '../styles/About.scss';
 
 const About = () => (
   <section className="about__container">
-    <div className="about__quote">It is foolish to fear what we have yet to see and know.</div>
+    <div className="about__marks">&#xf10d;</div>
+    <div className="about__quote">
+      It is foolish to fear what we have yet to see and know.
+      <p>Itachi Uchiha</p>
+
+    </div>
     <div className="about__text">
       <div>
         Itachi Uchiha (うちはイタチ, Uchiha Itachi) was a prodigy of Konohagakure&apos;s Uchiha clan and also served as an Anbu Captain. He later became an international criminal after murdering his entire clan, sparing only his younger brother, Sasuke. He afterwards joined the international criminal organisation known as Akatsuki, whose activity brought him into frequent conflict with Konoha and its ninja — including Sasuke — who sought to avenge their clan. Following his death, Itachi&apos;s motives were revealed to be more complicated than they seemed and that his actions were only ever in the interest of his brother and village, remaining a loyal shinobi of Konohagakure to the very end.
