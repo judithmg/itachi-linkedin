@@ -17,26 +17,37 @@ ul,
 li {
   list-style: none;
 }
+section {
+  margin: 1rem;
+}
 
 .App {
-  min-width: 100vw;
   background-image: url(./itachi-bg.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+.app-wrapper {
+  padding-top: 50px;
   @include flex(row, flex-start, flex-start);
 }
 
-.left-column {
+.side-column {
+  width: 15%;
 }
 .middle-column {
+  width: 70%;
+}
+.middle-upper {
+  @include flex(row, center, flex-end);
 }
 .middle-left {
-}
-.middle-middle {
+  width: 40%;
 }
 .middle-right {
+  width: 30%;
 }
-.right-column {
+.middle-center {
+  width: 30%;
 }
 
 .btn__view-all {
