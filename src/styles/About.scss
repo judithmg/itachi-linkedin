@@ -10,20 +10,25 @@
     font-weight: 700;
     color: $crimsonred;
     font-size: 3rem;
+    width: 10%;
   }
   .about__quote {
     color: #fff;
     text-transform: uppercase;
     font-weight: 800;
+    width: 30%;
+    font-size: 2rem;
+    padding-right: 1rem;
     p {
       text-transform: none;
       color: $semi-gray;
-      font-size: 0.5rem;
+      font-size: 0.6rem;
     }
   }
   .about__text {
     color: $gray;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
     font-weight: 600;
+    width: 60%;
   }
 }
