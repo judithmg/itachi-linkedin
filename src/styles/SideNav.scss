@@ -4,11 +4,11 @@
   position: relative;
   img {
     position: absolute;
-    top: -25%;
+    top: -10%;
     left: 22%;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
   }
   h3,
@@ -21,7 +21,6 @@
       color: $gray;
     }
   }
-  width: 350px;
   background-image: linear-gradient(
     to right top,
     #e9305eb4,
@@ -35,7 +34,6 @@
   border-radius: 20px;
 
   position: relative;
-  margin: 20px;
   padding: 20px;
   &:after {
     content: "";

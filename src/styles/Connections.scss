@@ -7,35 +7,45 @@
 
 .connections__header {
   @include flex(row, space-between, center);
-  padding: 2rem;
+  padding: 1.5rem;
+}
+.connections__connection {
+  flex-wrap: wrap;
+  @include flex(row, space-between, center);
 }
 
 .connection__container {
   position: relative;
+  flex-shrink: 1;
   @include flex(column, flex-end, center);
-  height: 5rem;
   margin: 1rem;
-
   font-size: 0.7rem;
   color: #fff;
-  width: 40%;
+  width: calc(50% - 2rem);
   background-color: $charbg;
   border-radius: 10px;
   img {
     position: absolute;
-    top: -30%;
-    left: 40%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     width: 70px;
     height: 50px;
     object-fit: cover;
   }
   div {
-    line-height: 0;
     text-align: center;
+    margin-top: 40px;
     margin-bottom: 0.7rem;
+    h3 {
+      font-size: 100%;
+      margin: 0;
+    }
     p {
+      margin: 0;
       color: $gray;
+      font-size: 0.6rem;
       span {
         color: #fff;
         font-weight: 700;

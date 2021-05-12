@@ -1,28 +1,31 @@
 @import "./index";
 
 .pending__container {
-  padding: 1rem;
   border-radius: 20px;
   background-color: $sectionbg;
+  padding-top: 0.7rem;
+  h2 {
+    margin: 1rem;
+  }
 }
 
 .invitation__container {
   .invitation__left {
     @include flex(row, center, center);
   }
-  padding: 0.3rem;
+  padding: 0rem;
   @include flex(row, space-between, center);
   height: 5rem;
   margin: 1rem;
-
   font-size: 0.7rem;
   color: #fff;
-  width: 40%;
+  width: calc(100% - 2rem);
   background-color: $charbg;
   border-radius: 10px;
   p {
     color: #fff;
     font-weight: 700;
+    font-size: 0.5rem;
     span {
       color: $gray;
     }
@@ -32,21 +35,24 @@
     width: 50px;
     height: 50px;
     object-fit: cover;
-    margin: 1rem;
+    margin: 0.5rem;
   }
 }
 
 .invitation__buttons {
+  width: 30%;
+  @include flex(row, space-between, center);
+  margin-right: 0.5rem;
   button {
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 100%;
     background-color: $semi-gray;
     border: none;
     border-radius: 5px;
-    width: 2rem;
+    width: 45%;
     height: 2rem;
-    margin: 0 0.5rem;
+    text-align: center;
     &:nth-child(1) {
       color: $green;
     }
