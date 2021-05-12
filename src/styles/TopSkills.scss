@@ -3,11 +3,23 @@
 .topskills__container {
   padding: 1rem;
   border-radius: 20px;
+  position: relative;
   background-color: $sectionbg;
   h2 {
     span {
       color: $crimsonred;
     }
+  }
+  &:after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 0 40px 0 0;
+    border-right: 8px solid crimson;
+    border-top: 8px solid crimson;
+    position: absolute;
+    left: calc(100% - 80px);
+    top: -8px;
   }
 }
 .topskills__skills--row {
