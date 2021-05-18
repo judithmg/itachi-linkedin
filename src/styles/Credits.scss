@@ -1,0 +1,15 @@
+@import "./index";
+
+.credits__container {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: $sectionbg;
+  p {
+    color: #fff;
+    font-size: 0.7rem;
+    span {
+      color: $crimsonred;
+      font-weight: 700;
+    }
+  }
+}
