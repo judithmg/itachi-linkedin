@@ -22,6 +22,11 @@ li {
 section {
   margin: 1rem;
 }
+button,
+a,
+li {
+  cursor: pointer;
+}
 
 .App {
   background-image: url(./itachi-bg.png);
@@ -64,5 +69,41 @@ section {
   &:hover {
     border: 1px solid $crimsonred;
     color: $crimsonred;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .app-wrapper {
+    padding-top: 150px;
+    @include flex(column, flex-start, center);
+  }
+  .middle-upper {
+    @include flex(column, center, center);
+    width: 90%;
+  }
+  .side-column {
+    width: 90%;
+  }
+  .middle-column {
+    @include flex(column, flex-start, center);
+    width: 90%;
+  }
+
+  .middle-left {
+    width: 100%;
+  }
+  .middle-right {
+    section {
+      margin: 1rem 0;
+    }
+    width: 100%;
+  }
+  .middle-center {
+    width: 100%;
+  }
+  .inbox__search {
+    input {
+      width: 100%;
+    }
   }
 }
