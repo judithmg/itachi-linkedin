@@ -1,5 +1,5 @@
 import React from 'react';
-import invitations from '../data/invitations';
+import invitations from '../constants/invitations';
 import Invitation from './Invitation';
 import '../styles/Pending.scss';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import search from '../data/recentSearch';
+import search from '../constants/recentSearch';
 import '../styles/RecentSearch.scss';
 
 const RecentSearch = () => (

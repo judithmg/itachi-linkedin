@@ -5,9 +5,10 @@
   border-radius: 20px;
   background-color: $sectionbg;
   p {
-    color: #fff;
+    color: $lightgray;
     font-size: 0.7rem;
-    span {
+    a {
+      text-decoration: none;
       color: $crimsonred;
       font-weight: 700;
     }

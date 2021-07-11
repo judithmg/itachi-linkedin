@@ -1,5 +1,5 @@
 import React from 'react';
-import jobs from '../data/jobs';
+import jobs from '../constants/jobs';
 import Job from './Job';
 import '../styles/Jobs.scss';
 

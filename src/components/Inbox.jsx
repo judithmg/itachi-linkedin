@@ -1,5 +1,5 @@
 import React from 'react';
-import messages from '../data/message';
+import messages from '../constants/message';
 import Message from './Message';
 import '../styles/Inbox.scss';
 

@@ -5,20 +5,20 @@ const Credits = () => (
   <section className="credits__container">
     <h2>About</h2>
     <p>
-      Created by
+      👩‍💻 Created by
       {' '}
-      <span>Judith Martínez</span>
+      <a href="https://github.com/judithmg">Judith Martínez</a>
     </p>
     <p>
-      Special thanks to
+      🚀 Special thanks to
       {' '}
-      <span>Luvy</span>
+      <a href="https://github.com/Lluis-Quintana">Luvy</a>
     </p>
     <p>
-      Original design by
+      🎨 Original design by
       {' '}
-      <span>Daniel Snow</span>
-      , used with permission
+      <a href="https://danielsnows.com.br/">Daniel Snow</a>
+      , cloned with permission
     </p>
   </section>
 );

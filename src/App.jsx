@@ -7,6 +7,7 @@ import Connections from './components/Connections';
 import About from './components/About';
 import Jobs from './components/JobsForYou';
 import RecentSearch from './components/RecentSearch';
+import Credits from './components/Credits';
 
 import './styles/App.scss';
 
@@ -31,6 +32,8 @@ function App() {
         <div className="side-column">
           <Jobs />
           <Inbox />
+          <Credits />
+
         </div>
       </div>
     </div>

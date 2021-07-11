@@ -1,6 +1,6 @@
 import React from 'react';
 import Connection from './Connection';
-import connections from '../data/connections';
+import connections from '../constants/connections';
 import '../styles/Connections.scss';
 
 const Connections = () => (
